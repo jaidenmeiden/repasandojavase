@@ -190,13 +190,33 @@ public class HelloWorld {
 		System.out.println("Decremento prefijo");
 		System.out.println("1ª momento: " + (--yy));
 		System.out.println("2ª momento: " + yy);
-		
+
+		//Operadores de equidad
 		System.out.println();
 		System.out.println("Operadores de equidad");
 		
-		int q = 2;
-		int p = 3;	
+		int q = 5;
+		int p = 4;
 		System.out.println(p == q);
 		System.out.println(p != q);
+
+		//Operadores relacionales
+		System.out.println();
+		System.out.println("Operadores relacionales");
+		System.out.println("q > p => " + (q > p));
+		System.out.println("q < p => " + (q < p));
+		System.out.println("q >= p => " + (q >= p));
+		System.out.println("q <= p => " + (q <= p));
+
+		//Operadores lógicos
+		boolean n = true;
+		boolean m = false;
+
+		System.out.println();
+		System.out.println("Operadores lógicos");
+		System.out.println("n && m => " + (n && m));
+		System.out.println("n || m => " + (n || m));
+		System.out.println("!n => " + (!n));
+		System.out.println("!m => " + (!m));
 	}
 }
